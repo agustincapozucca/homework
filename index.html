@@ -4,21 +4,41 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mi Primer Sitio Web</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" href="reset.css">
    </head>
    <body>
     <HEader>
-        <h1>NOTI DEPORTES</h1>
-        <span>FUTBOL</span>
-        <span>- TENIS</span>
-        <span>- FORMULA 1</span>
-   </HEader>
+        <h1 class="title" id="principal">NOTI DEPORTES</h1>
+        
+        <div id="cards-container">
+        
+        <div class="cards">
+        FUTBOL
+        <img src="futbol.jpeg" class="imgcabecera" alt="">
+        </div>
+        <div class="cards">
+        TENIS
+        <img src="tenis.jpg" class="imgcabecera" alt="">
+        </div>
+        <div class="cards">
+        FORMULA 1
+        <img src="f1.jpg" class="imgcabecera" alt="">
+        </div>
+
+        </div>
+
+      </HEader>
+      <hr>
      <MAIn>
         <section>
-             
-            <H2>FUTBOL</H2>
-            
-         <img src="futbol.jpeg" alt="">
+          </article>  
             <article>
+           <div>
+               <H2 class="title">FUTBOL</H2>
+               
+         <img src="futbol.jpeg" class="logo" alt="">
+            
             <div>
              <H3>COPA AMERICA</H3>
              <P>argentina ya clasificado a octavos de final faltando un partido en fase de grupos</P>
@@ -31,10 +51,12 @@
     </section>
         <hr>
     <section>
-    
-        <H2>TENIS</H2>
-        <img src="tenis.jpg" alt="">
-        <article>
+    </article>
+       <article>
+    <H2 class="title">TENIS</H2>
+        
+        <img src="tenis.jpg" class="logo" alt="">
+        
             <div>
         <H3>WIMBLEDOM</H3>
         <p>alcaraz y sinner son los maximos candidatos a ganar el grand slam de cesped</p>
@@ -55,9 +77,11 @@
      </section>
         <hr>
     <section>
-        <H2>FORMULA 1</H2>
-        <img src="f1.jpg" alt="">
-       <article>
+       </article> 
+      <article>
+         <H2 class="title">FORMULA 1</H2>
+        <img src="f1.jpg" class="logo">
+       
         <div>
            <H3>GP MONACO</H3>
           <p>charles leclerc local y campeon del gran premio de monaco</p>
@@ -74,14 +98,18 @@
               <li>italia</li>
           </ul>
         </div>
+        </div>
        </article>
     </section>
    </MAIn> 
    <HR></HR>
-   <FOoter>
-    <p>si queres recibir las ultimas noticias actualizadas de deportes subscribite.</p>
+   <footer>
+<p>mira todo el deporte junto a nosotros</p>
+    
+<a href="suscrpcion.html">SUSCRIBIRSE</a>
 
-   </FOoter>
+   </footer>
+  
       
    </body>
 </html>
